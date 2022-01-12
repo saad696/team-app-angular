@@ -1,0 +1,63 @@
+.team__main-container {
+  padding: 4rem;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.team__list {
+  padding: 1rem;
+  width: 100%;
+  height: 10rem;
+  border: 0.1rem solid grey;
+  overflow: auto;
+}
+
+.team__add-members-form input {
+  border: none;
+  border-bottom: 0.1rem solid rgba(128, 128, 128, 0.418);
+  margin-right: 0.5rem;
+  width: 100%;
+  display: flex;
+}
+
+.team__add-members-form button {
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: rgb(0, 53, 139);
+  margin-top: 0.5rem;
+}
+
+.team__generate-members-form {
+  margin: 2rem 0;
+  display: flex;
+  height: 2rem;
+}
+
+.team__generate-members-form button {
+  width: 50%;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+}
+
+.team__generate-members-form input {
+  width: 50%;
+}
+
+.team__card {
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  padding: 5rem;
+}
+
+.error-msg {
+  color: red;
+}

@@ -1,0 +1,7 @@
+.team__list-generated {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    border: 0.1rem solid grey;
+    overflow: auto;
+  }
